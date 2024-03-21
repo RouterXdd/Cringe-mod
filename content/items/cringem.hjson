@@ -1,0 +1,9 @@
+color: "#cf284c"
+charge: 0.6
+hiddenOnPlanets: [
+        "serpulo",
+        "erekir"
+]
+research:{
+parent: core-toilet
+}

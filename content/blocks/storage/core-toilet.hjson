@@ -1,0 +1,19 @@
+alwaysUnlocked: true
+type: CoreBlock
+isFirstTier: true
+health: 3400
+size: 3
+itemCapacity: 1500
+unitCapModifier: 10
+unitType: zero
+destroySound: isSus
+requirements: [
+ cringem/1000
+]
+category: effect
+research: {
+    root: true
+    name: "Cringe"
+    requiresUnlock: false
+    planet: coronit
+}

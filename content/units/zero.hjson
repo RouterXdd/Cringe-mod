@@ -1,0 +1,50 @@
+   type: flying
+    controller: BuilderAI
+
+    health: 180
+    armor: 5
+    speed: 2.75
+    drag: 0.05
+    flying: true
+    lowAltitude: true
+    hitSize: 9
+    itemCapacity: 15
+
+    buildSpeed: 0.5
+    buildRange: 65
+    deathSound: disappear
+    research: core-toilet
+
+    mineSpeed: 5
+    mineTier: 3
+    mineFloor: false
+    mineWalls: true
+
+    coreUnitDock: true
+    createScorch: false
+    createWreck: false
+    outlineColor: 231317
+
+    weapons: [
+        {
+            name: "zero-weapon"
+            top: false
+            x: 0
+            y: 0.25
+            shootY: 0
+            reload: 20
+            recoil: 0
+            shootSound: missile
+            shake: 0.3
+            alternate: false
+            mirror: false
+            bullet: {
+                type: BasicBulletType
+                damage: 11
+                height: 9
+                buildingDamageMultiplier: 0.01
+                speed: 6
+                lifetime: 10
+            }
+        }
+    ]

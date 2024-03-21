@@ -1,0 +1,41 @@
+type: itemTurret
+name: "Poop Shooter"
+description: "Shoots a burst of shit"
+health: 2170
+size: 3
+reload: 10
+range: 165
+chargeSound: poop-sound-effect
+outlineColor: "231317"
+squareSprite: false
+shootSound: none
+shoot: {
+    shots: 7
+    shotDelay: 5
+    firstShotDelay: 30
+}
+ammoTypes:{
+    cringem:{
+        speed: 6
+        lifetime: 27.5
+        damage: 10
+        width: 8
+        height: 12
+        ammoMultiplier: 2
+        buildingDamageMultiplier: 0.5
+        frontColor: 2b0c03
+        backColor: 110400
+    }
+}
+drawer:{
+ type: DrawTurret
+ basePrefix: cringe-
+}
+category: turret
+research:{
+parent:core-toilet
+requirements:[cringem/135]
+}
+requirements: [
+    cringem/210
+]

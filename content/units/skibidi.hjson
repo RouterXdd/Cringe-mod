@@ -1,0 +1,38 @@
+ type: flying
+
+    health: 135
+    armor: 2
+    speed: 2.2
+    drag: 0.07
+    flying: true
+    lowAltitude: true
+    hitSize: 8
+
+    itemCapacity: 15
+    research: zero
+
+    outlineColor: 231317
+
+    weapons: [
+        {
+            name: "skibidi-weapon"
+            top: false
+            x: 0
+            y: 3
+            shootY: 0
+            reload: 40
+            recoil: 0
+            shootSound: pew
+            shake: 1
+            alternate: false
+            mirror: false
+            bullet: {
+                type: BasicBulletType
+                damage: 15
+                height: 12
+                width: 9
+                speed: 6
+                lifetime: 17.5
+            }
+        }
+    ]

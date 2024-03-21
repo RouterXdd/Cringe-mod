@@ -1,0 +1,5 @@
+type: TallBlock
+variants: 1
+clipSize: 110
+itemDrop: cringem
+shadowOffset: -1

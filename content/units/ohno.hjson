@@ -1,0 +1,55 @@
+type: mech
+
+    health: 210
+    armor: 7
+    speed: 0.95
+    hitSize: 12
+
+    itemCapacity: 30
+    research: zero
+
+    outlineColor: 231317
+
+    weapons: [
+        {
+            name: "ohno-weapon"
+            top: true
+            x: 5
+            y: 0
+            shootY: 0
+            reload: 10
+            recoil: 1
+            shootSound: shotgun
+            shake: 0
+            alternate: false
+            mirror: true
+            bullet: {
+                type: ShrapnelBulletType
+                damage: 10
+                length: 12
+                colorTo: e54067
+            }
+        }
+        {
+            name: "ohno-weapon"
+            top: true
+            x: 0
+            y: -5
+            shootY: 0
+            reload: 70
+            recoil: 3
+            shootSound: pew
+            shake: 3
+            alternate: false
+            mirror: false
+            bullet: {
+                type: BasicBulletType
+                damage: 30
+                height: 17
+                pierceCap: 4
+                width: 9
+                speed: 8
+                lifetime: 15
+            }
+        }
+    ]

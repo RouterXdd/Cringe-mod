@@ -1,0 +1,13 @@
+type: SolarGenerator
+powerProduction : 0.2
+category: power
+research:{
+  parent:core-toilet
+  requirements:[
+  cringem/55
+]
+}
+size: 2
+requirements: [
+  cringem/15
+]

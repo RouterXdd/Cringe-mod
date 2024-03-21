@@ -1,0 +1,11 @@
+type: Unloader
+requirements: [
+ cringem/70
+]
+category: effect
+research:{
+  parent:core-toilet
+  requirements:[
+  cringem/100
+]
+}

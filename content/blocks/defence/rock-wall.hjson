@@ -1,0 +1,12 @@
+type: Wall
+health: 200
+requirements: [
+ cringem/6
+]
+research:{
+  parent:core-toilet
+  requirements:[
+  cringem/30
+]
+}
+category: defense

@@ -1,0 +1,14 @@
+type: StackConveyor
+requirements: [
+  cringem/1
+]
+itemCapacity: 3
+speed:0.05
+category: distribution
+research:{
+  parent:core-toilet
+  requirements:[
+  cringem/10
+]
+}
+health:300

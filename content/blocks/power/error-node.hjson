@@ -1,0 +1,14 @@
+type:PowerNode
+health:250
+category:power
+requirements:[
+  cringem/40
+]
+maxNodes:10
+laserRange:9
+research:{
+  parent:cringe-panel
+  requirements:[
+  cringem/70
+]
+}
