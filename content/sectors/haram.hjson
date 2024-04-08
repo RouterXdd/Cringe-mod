@@ -2,4 +2,5 @@ captureWave: 20
 planet: coronit
 sector: 12
 difficulty: 3
+alwaysUnlocked: true
 research: core-toilet
