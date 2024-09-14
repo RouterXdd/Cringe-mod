@@ -7,16 +7,16 @@ type: mech
 
     itemCapacity: 30
     research: zero
-
     outlineColor: 231317
+    mechLegColor:231317
 
     weapons: [
         {
             name: "ohno-weapon"
-            top: true
-            x: 5
+            top: false
+            x: 5.75
             y: 0
-            shootY: 0
+            shootY: 3.5
             reload: 10
             recoil: 1
             shootSound: shotgun
@@ -31,10 +31,10 @@ type: mech
             }
         }
         {
-            name: "ohno-weapon"
+            name: "weapon"
             top: true
             x: 0
-            y: -5
+            y: 3
             shootY: 0
             reload: 70
             recoil: 3

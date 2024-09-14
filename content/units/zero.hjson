@@ -13,6 +13,7 @@
     buildSpeed: 0.5
     buildRange: 65
     deathSound: disappear
+    deathExplosionEffect: none
     research: core-toilet
 
     mineSpeed: 5
