@@ -23,8 +23,11 @@ ammoTypes:{
         height: 12
         ammoMultiplier: 2
         buildingDamageMultiplier: 0.5
-        frontColor: 2b0c03
-        backColor: 110400
+        frontColor: "5b360eFF"
+        backColor: "381404FF"
+        trailColor: "381404FF"
+        trailLength: 5
+        tralWidth: 2
     }
 }
 drawer:{

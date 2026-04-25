@@ -1,0 +1,13 @@
+type: Wall
+size: 2
+health: 800
+requirements: [
+ cringem/24
+]
+research:{
+  parent:rock-wall
+  requirements:[
+  cringem/120
+]
+}
+category: defense

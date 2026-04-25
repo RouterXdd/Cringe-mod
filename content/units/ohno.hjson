@@ -23,6 +23,8 @@ type: mech
             shake: 0
             alternate: false
             mirror: true
+            width: 2
+            toColor: e54067
             bullet: {
                 type: ShrapnelBulletType
                 damage: 10

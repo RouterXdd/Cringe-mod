@@ -48,7 +48,7 @@ updateLighting: false
 allowLaunchToNumbered: false
 sectorSize: 2
 orbitSpacing: 14
-orbitRadius: 17
+orbitRadius: 21
 radius: 0.8
 visible: true
 atmosphereRadIn: 0.1
@@ -70,27 +70,3 @@ defaultCore: core-toilet
 landCloudColor: e54067
 parent: sun
 alwaysUnlocked: true
-hiddenItems: [
-        "copper",
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "sand",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide",
-        "fissile-matter",
-        "dormant-cyst"
-]
